@@ -16,5 +16,6 @@ def get_tracer_recommendation():
     recommendation = model.recommend()
     
     recommendation['rating_5'] = int(recommendation['rating_5'])
+    #required because FastAPI doesn't know how to convert numpy.int64 to json
     
     return recommendation
