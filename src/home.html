@@ -6,12 +6,16 @@ Recommend
 document.getElementById('mybutton').addEventListener("click",get_recommend)
 
 function get_recommend() {
-    alert('hello')
+    fetch('http://127.0.0.1:8000/recommend').then(
+    Response => Response.json()).then(
+    data => 
+    document.getElementById('result').innerHTML = data.title + " by " + data.authors + " with " + data.rating_5 + " 5 star ratings."
+    )
 }
 
 
 </script>
 
 <div id ='result'>
-
+result
 </div>

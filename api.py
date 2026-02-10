@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from main import Tracer
 import pandas as pd
 from tests.test_tracer import test_books
@@ -9,8 +10,9 @@ model = Tracer(books = test_books)
 
 app = FastAPI()
 
-@app.get("/recommend")
+app.add_middleware(CORSMiddleware,allow_origins=["*"],allow_methods=["*"])
 
+@app.get("/recommend")
 def get_tracer_recommendation():
     
     recommendation = model.recommend()
