@@ -9,7 +9,13 @@
       "Bash(git -C \"$dir\" log --since=\"2026-02-07 06:00\" --format=\"%h %s\" --all)",
       "Bash(fi)",
       "Bash(done)",
-      "Bash(bash:*)"
+      "Bash(bash:*)",
+      "Bash(dir:*)",
+      "Bash(test:*)",
+      "Bash(.venvScriptspython.exe goodbooks_dataset.py)",
+      "Bash(\".venv/Scripts/python.exe\" goodbooks_dataset.py)",
+      "Bash(export CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION:*)",
+      "Bash(echo:*)"
     ]
   }
 }
