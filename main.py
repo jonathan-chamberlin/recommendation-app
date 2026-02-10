@@ -19,6 +19,6 @@ class Tracer:
         
         return {
             'title':title,
-            'author': author,
+            'authors': author,
             'rating_5': rating_5
             }
