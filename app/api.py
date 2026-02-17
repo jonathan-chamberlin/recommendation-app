@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.main import Tracer
+from src.tracer import Tracer
 import pandas as pd
 from tests.test_tracer import test_books
 

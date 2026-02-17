@@ -15,7 +15,10 @@
       "Bash(.venvScriptspython.exe goodbooks_dataset.py)",
       "Bash(\".venv/Scripts/python.exe\" goodbooks_dataset.py)",
       "Bash(export CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" status)",
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" diff)",
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" log --oneline -5)"
     ]
   }
 }

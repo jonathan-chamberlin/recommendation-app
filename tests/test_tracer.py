@@ -1,5 +1,5 @@
 import pytest
-from src.main import Tracer
+from src.tracer import Tracer
 import pandas as pd
 
 test_books = pd.DataFrame({

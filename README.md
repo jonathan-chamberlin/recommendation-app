@@ -206,9 +206,9 @@ Report all metrics for your model AND all baselines. Show the delta.
 **Goal:** Repository set up, data loaded and explored, training infrastructure ready.
 
 **Tasks:**
-- [ ] Create repo with demo-guidelines folder structure (`src/`, `tests/`, `configs/`, `scripts/`, `app/`)
-- [ ] Download Goodreads-10K dataset, explore distributions (rating counts, user activity, genre spread)
-- [ ] Implement data loading pipeline: PyTorch `Dataset` and `DataLoader` for user-item interactions
+- [x ] Create repo with demo-guidelines folder structure (`src/`, `tests/`, `configs/`, `scripts/`, `app/`)
+- [x ] Download Goodreads-10K dataset, explore distributions (rating counts, user activity, genre spread)
+- [x ] Implement data loading pipeline: PyTorch `Dataset` and `DataLoader` for user-item interactions
 - [ ] Implement train/validation/test split BY USER (not by rating)
 - [ ] Set up YAML config for all hyperparameters (embedding dim, learning rate, batch size, etc.)
 - [ ] Set up Weights & Biases experiment tracking
