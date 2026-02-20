@@ -4,6 +4,15 @@
 
 *Given a few books you rate, discover books you'll love — with explanations for every recommendation.*
 
+## Installation Steps (No Terminal Typing)
+
+1. Double-click `Install-Dependencies.bat` once.
+2. Double-click `Start-API.bat` to launch the backend.
+3. Double-click `Open-Demo.bat` to open the UI in your browser.
+4. Click **Recommend**.
+
+If SmartScreen appears, click **More info** then **Run anyway**.
+
 ## Why This Project
 
 Your portfolio has strong RL projects (agent-organism, lunar-lander) and data analysis (Uber trips). All three share the same blind spots:
